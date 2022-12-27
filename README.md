@@ -11,7 +11,7 @@ function! s:gitgrep(q_args) abort
     \ 'title': 'git grep',
     \ 'line_parser': function('s:gitgrep_line_parser'),
     \ })
-  " If you wait to stop the job, call qfjob#stop().
+  " If you want to stop the job, call qfjob#stop().
   " call qfjob#stop(id)
 endfunction
 
